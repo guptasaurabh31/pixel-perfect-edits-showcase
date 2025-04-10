@@ -34,11 +34,13 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://youtu.be/2AHmj5uLG0Q?si=2y2igTgSn4NWcA2b">
             <Button size="lg" className="gap-2">
-              <PlayCircle className="w-5 h-5" /> Watch Showreel
+              <PlayCircle className="w-5 h-5" /> Watch Showreel 
             </Button>
+            </a>
             <Button variant="outline" size="lg" asChild>
-              <a href="#work">Explore Projects</a>
+              <a href="#work">Explore Styles</a>
             </Button>
           </div>
         </div>

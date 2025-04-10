@@ -17,7 +17,7 @@ const services = [
   {
     icon: PenTool,
     title: "Motion Graphics",
-    description: "Custom animated elements, titles, and graphics that elevate your video content and reinforce your brand."
+    description: "Custom animated elements, titles, Typography and graphics that elevate your video content."
   },
   {
     icon: Music,
@@ -27,12 +27,12 @@ const services = [
   {
     icon: PaintBucket,
     title: "Color Grading",
-    description: "Enhance the visual appeal of your footage with professional color correction and stylistic color grading."
+    description: "Enhance the visual appeal of your footage with professional color correction and stylistic color grading and applying appropreate LUTS."
   },
   {
     icon: Layers,
     title: "Visual Effects",
-    description: "From simple clean-up to complex compositing, adding that extra visual impact to your projects."
+    description: "From simple clean-up to complex compositing, adding that extra visual impact to projects."
   },
   {
     icon: Video,
@@ -50,7 +50,7 @@ export const Services = () => {
             Services & Expertise
           </h2>
           <p className="text-gray-300">
-            I offer a comprehensive range of video editing and post-production services,
+            I offer a comprehensive range of video editing services,
             tailored to meet your specific project needs and creative vision.
           </p>
         </div>

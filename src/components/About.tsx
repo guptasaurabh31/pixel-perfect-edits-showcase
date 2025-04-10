@@ -43,15 +43,14 @@ export const About = () => {
               About Me
             </h2>
             <p className="text-gray-300 mb-6">
-              I'm a passionate and experienced video editor with a keen eye for visual storytelling and rhythm. 
-              With over 8 years in the industry, I've worked across multiple formats including feature films, 
-              commercials, documentaries, and digital content.
+            I'm an aspiring video editor passionate about storytelling through visuals, rhythm, and sound. As I begin my journey in the creative world, I'm actively exploring editing styles, transitions, motion graphics, and effects to develop a unique editing voice.
+
+
             </p>
             <p className="text-gray-300 mb-8">
-              My approach combines technical expertise with creative intuition, allowing me to craft 
-              compelling narratives that resonate with audiences. I believe in the power of collaboration 
-              and work closely with directors and producers to realize their vision while adding my own 
-              creative perspective.
+            Though I’m at the early stage of my career, I’m constantly learning through real-world practice, tutorials, and creative challenges. I’ve created a variety of demo videos and animated texts, and I'm building a showreel that reflects the kind of work I’m capable of producing — from fast-paced transitions to cinematic effects. <br />
+
+I believe in growth through collaboration and consistency. I'm always open to new opportunities, feedback, and projects that help me level up and bring ideas to life.
             </p>
 
             {/* Skills and Experience */}
@@ -61,9 +60,9 @@ export const About = () => {
                   <Film className="h-5 w-5 text-editor-purple" />
                 </div>
                 <div>
-                  <h3 className="font-bold mb-1">Narrative Editing</h3>
+                  <h3 className="font-bold mb-1">Motion Graphics</h3>
                   <p className="text-sm text-gray-400">
-                    Crafting compelling stories that engage and captivate audiences
+                  Crafting dynamic animations and text reveals
                   </p>
                 </div>
               </div>
@@ -72,9 +71,9 @@ export const About = () => {
                   <MonitorPlay className="h-5 w-5 text-editor-purple" />
                 </div>
                 <div>
-                  <h3 className="font-bold mb-1">Visual Effects</h3>
+                  <h3 className="font-bold mb-1">Cinematic Transitions</h3>
                   <p className="text-sm text-gray-400">
-                    Creating stunning visuals that enhance the storytelling experience
+                  Using speed ramps, zooms, and match cuts
                   </p>
                 </div>
               </div>
@@ -83,9 +82,9 @@ export const About = () => {
                   <Award className="h-5 w-5 text-editor-purple" />
                 </div>
                 <div>
-                  <h3 className="font-bold mb-1">Award Winning</h3>
+                  <h3 className="font-bold mb-1">Sound Design</h3>
                   <p className="text-sm text-gray-400">
-                    Recognized with multiple industry awards for editing excellence
+                  Adding impact with SFX and music sync
                   </p>
                 </div>
               </div>
@@ -94,9 +93,9 @@ export const About = () => {
                   <Users className="h-5 w-5 text-editor-purple" />
                 </div>
                 <div>
-                  <h3 className="font-bold mb-1">Collaborative</h3>
+                  <h3 className="font-bold mb-1">Color Isolation & Grading</h3>
                   <p className="text-sm text-gray-400">
-                    Working closely with teams to achieve shared creative vision
+                  Creating mood through color
                   </p>
                 </div>
               </div>
@@ -105,11 +104,11 @@ export const About = () => {
             {/* Mobile Stats Block */}
             <div className="grid grid-cols-2 gap-6 mt-10 lg:hidden">
               <div className="text-center p-4 glass-card">
-                <div className="text-3xl font-bold text-editor-purple mb-1">8+</div>
-                <div className="text-sm text-gray-300">Years Experience</div>
+                <div className="text-3xl font-bold text-editor-purple mb-1">Intermidiate</div>
+                <div className="text-sm text-gray-300">Level Experience</div>
               </div>
               <div className="text-center p-4 glass-card">
-                <div className="text-3xl font-bold text-editor-purple mb-1">150+</div>
+                <div className="text-3xl font-bold text-editor-purple mb-1">10+</div>
                 <div className="text-sm text-gray-300">Projects</div>
               </div>
             </div>

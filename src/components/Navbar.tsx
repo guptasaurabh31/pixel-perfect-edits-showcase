@@ -35,7 +35,7 @@ export const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <Film className="h-7 w-7 text-editor-purple" />
-          <span className="text-xl font-display font-bold">EditMaster</span>
+          <span className="text-xl font-display font-bold">Saurabh Gupta</span>
         </a>
 
         {/* Desktop Navigation */}

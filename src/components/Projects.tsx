@@ -10,48 +10,36 @@ const projectsData = [
     title: "Cinematic Travel Documentary",
     category: "documentary",
     thumbnail: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
-    year: 2023,
-    client: "Discovery Channel",
   },
   {
     id: 2,
     title: "Commercial Ad Campaign",
     category: "commercial",
     thumbnail: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    year: 2023,
-    client: "Nike",
   },
   {
     id: 3,
     title: "Music Video Production",
     category: "music",
     thumbnail: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    year: 2022,
-    client: "Universal Music",
   },
   {
     id: 4,
     title: "Short Film Editing",
     category: "film",
     thumbnail: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    year: 2022,
-    client: "Independent Production",
   },
   {
     id: 5,
     title: "Corporate Brand Video",
     category: "corporate",
     thumbnail: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    year: 2021,
-    client: "Microsoft",
   },
   {
     id: 6,
     title: "Wedding Highlight Film",
     category: "wedding",
     thumbnail: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
-    year: 2021,
-    client: "Private Client",
   },
 ];
 
@@ -81,8 +69,8 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-gray-300">
-            A selection of my best work across various formats and industries. Each project showcases
-            my approach to visual storytelling and technical expertise.
+          These videos are for demo purposes only – not edited by me. <br />
+          They represent the style and quality I’m capable of creating. <br />
           </p>
         </div>
 
@@ -100,7 +88,7 @@ export const Projects = () => {
           ))}
         </div>
 
-        {/* Projects Grid */}
+        {/* Style Showcase */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project) => (
             <div
@@ -123,11 +111,11 @@ export const Projects = () => {
                 <div className="flex justify-between items-center mb-3">
                   <span className="text-editor-purple text-sm capitalize">{project.category}</span>
                   <span className="flex items-center text-gray-400 text-sm">
-                    <Calendar className="h-4 w-4 mr-1" /> {project.year}
+                    
                   </span>
                 </div>
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-400 text-sm mb-4">Client: {project.client}</p>
+               
                 <div className="flex justify-between items-center">
                   <Button variant="link" className="px-0 text-editor-purple">
                     View Project <ExternalLink className="h-4 w-4 ml-1" />

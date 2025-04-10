@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="flex flex-col items-center justify-center mb-8">
           <div className="flex items-center gap-2 mb-4">
             <Film className="h-6 w-6 text-editor-purple" />
-            <span className="text-xl font-display font-bold">EditMaster</span>
+            <span className="text-xl font-display font-bold">Saurabh Gupta</span>
           </div>
           <p className="text-gray-400 text-center max-w-md">
             Professional video editing services for creators, businesses, and productions seeking high-quality visual content.
@@ -26,7 +26,7 @@ export const Footer = () => {
 
         <div className="border-t border-zinc-900 pt-8">
           <p className="text-gray-500 text-center text-sm">
-            &copy; {currentYear} EditMaster. All rights reserved.
+            &copy; {currentYear} Saurabh Gupta. All rights reserved.
           </p>
         </div>
       </div>
