@@ -14,7 +14,7 @@ export const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center relative overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-background z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-background z-10"></div>
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81')] bg-cover bg-center">
           {/* Video would replace this in a real implementation */}
           <div className="absolute inset-0 bg-black/50"></div>
@@ -29,8 +29,8 @@ export const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-gray-300">
-            Professional video editor with expertise in cinematic storytelling,
-            motion graphics, and color grading for films, commercials, and digital content.
+          Aspiring video editor passionate about cinematic storytelling, creative motion graphics,
+          and color grading — building a strong foundation with bold visual style and modern editing techniques.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

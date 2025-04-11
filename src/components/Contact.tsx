@@ -95,21 +95,21 @@ export const Contact = () => {
               <h3 className="font-bold mb-4">Connect with me</h3>
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="www.linkedin.com/in/saurabhkumar-gupta" 
                   className="p-3 rounded-full bg-editor-purple/20 hover:bg-editor-purple/30 transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5 text-editor-purple" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.instagram.com/saurabhgupta_op/" 
                   className="p-3 rounded-full bg-editor-purple/20 hover:bg-editor-purple/30 transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-5 w-5 text-editor-purple" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.youtube.com/@saurabhgupta6185" 
                   className="p-3 rounded-full bg-editor-purple/20 hover:bg-editor-purple/30 transition-colors"
                   aria-label="YouTube"
                 >

@@ -15,26 +15,6 @@ export const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-10 -right-10 p-6 glass-card hidden lg:block">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-editor-purple mb-1">8+</div>
-                  <div className="text-sm text-gray-300">Years Experience</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-editor-purple mb-1">150+</div>
-                  <div className="text-sm text-gray-300">Projects Completed</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-editor-purple mb-1">12</div>
-                  <div className="text-sm text-gray-300">Industry Awards</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-editor-purple mb-1">35+</div>
-                  <div className="text-sm text-gray-300">Happy Clients</div>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Content Column */}
